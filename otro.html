@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+    </div>
+    
+    <nav>
+       <ul class="nav-links">
+            <li><a href="index.html">pagina principal</a></li>
+            <li><a href="#">b</a></li>
+            <li><a href="#">c</a></li>
+       </ul>            
+    </nav>
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div id="mobile-menu" class="overlay">
+        <a onclick="closeNav()" href="" class="close">&times;</a>
+        <div class="overlay-content">
+           <a href="index.html">pagina principal</a>
+           <a href="#">b</a>
+           <a href="#">c</a>
+        </div>
+    </div>
+  </header>
+  
+  <main>
+      <h1>Registre a un usuario</h1>
+      <form class="form">
+          <div class="inputContainer">
+              <label for="nombre">Ingrese su nombre</label>
+              <input type="text" name="nombreCompleto" placeholder="cosme fulanito" id="nombre">
+          </div>
+          <div class="inputContainer">
+              <label for="email">Ingrese su correo electronico</label>
+              <input type="text" name="correoElectronico" placeholder="cosmefulanito@gmail.com" id="email">
+          </div>
+          <div class="inputContainer">
+              <label for="contrasena">Ingrese su contraseña</label>
+              <input type="password" name="contrasena" placeholder="contraseña123" id="contrasena">
+          </div>
+          <input type="submit" value="registrar" class="register-btn">
+      </form>
+      <div id="contenedorUsuarios" class="contenedorUsuarios"></div>
+  </main>
+  
+
+  <script src="./script.js"></script>
+</body>
+</html>
