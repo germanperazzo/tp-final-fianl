@@ -7,6 +7,14 @@
     font-family: 'Mukta', sans-serif;
 }
 
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/744/676/desktop-wallpaper-game-of-thrones-chair.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+  
+  }
+
 header{
     background-image: url("https://img.freepik.com/vector-gratis/fondo-particulas-tecnologia-abstracta_52683-25766.jpg?w=1060&t=st=1681181737~exp=1681182337~hmac=f632fba6484f711cf334c3cab31692f0440f36c90267cc3415378ebe739127f9");
     display: flex;
@@ -14,6 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 h3{
   font-family: 'robot slab', sans-serif;
   color: whitesmoke;
@@ -80,14 +89,13 @@ header .searchContainer input::placeholder{
   color: whitesmoke;
   transform: scale(1.1);
 }
-
-
+  
 #contenedor {
   width: 100vw;
-  background-color: rgb(8, 15, 40);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 
 #tarjeta {
@@ -118,34 +126,43 @@ header .searchContainer input::placeholder{
 
 footer {
   width: 100%;
-  padding: 0;
-  margin:0;
+  padding: 8px 3px;
+  margin-top:0;
   background-image: url("https://img.freepik.com/vector-premium/fondo-tecnologia-colores-degradados_23-2147837710.jpg?w=1060");
- 
 }
+footer hr{
+  border: none;
+  height: 2px;
+  background-color: white;
+} 
 
 .container__footer {
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: space-between;
-  max-width: 790px;
+  max-width: 800px;
   margin: 0;
-  margin-top: 85px;
+  margin-top: 35px;
 }
 
 .box__footer {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 10px 10px 40px;
+  margin:3px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 .box__footer h2 {
+  font-size: 45px;
   margin-bottom: 30px;
   color: white;
-  font-weight: 700;
+  font-weight: 650;
 }
 
 .box__footer a {
+  font-size: 25px;
   margin-top: 8px;
   color: #7a7a7a;
   font-weight: 600;
@@ -166,6 +183,7 @@ footer {
 .box__copyright p {
   margin-top: 20px;
   color: white;
+  font-size: 25px;
 }
 
 .box__copyright hr {
