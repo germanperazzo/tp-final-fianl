@@ -1,13 +1,7 @@
 
+
 const formulario = document.querySelector("#formulario");
 
-formulario.addEventListener("submit", (evento) => {
-  evento.preventDefault();
-  if (formulario.nombrePelicula.value) {
-    ejecutar(formulario.nombrePelicula.value);
-  }
-  formulario.nombrePelicula.value = "";
-});
 
 
 ejecutar("lo ultimo");
